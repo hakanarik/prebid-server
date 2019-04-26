@@ -667,6 +667,7 @@
     "github.com/rs/cors",
     "github.com/spf13/viper",
     "github.com/stretchr/testify/assert",
+    "github.com/stretchr/testify/mock",
     "github.com/vrischmann/go-metrics-influxdb",
     "github.com/xeipuuv/gojsonschema",
     "github.com/yudai/gojsondiff",
