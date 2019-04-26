@@ -255,6 +255,84 @@
   version = "0.6.1"
 
 [[projects]]
+  digest = "1:3f9bcecf65a7c5aa8dc65d82fb2159da8902bc388b5ad6aaf853ec631e48e3ce"
+  name = "github.com/prebid/prebid-server"
+  packages = [
+    "adapters",
+    "adapters/33across",
+    "adapters/adapterstest",
+    "adapters/adform",
+    "adapters/adkernelAdn",
+    "adapters/adtelligent",
+    "adapters/appnexus",
+    "adapters/audienceNetwork",
+    "adapters/beachfront",
+    "adapters/brightroll",
+    "adapters/consumable",
+    "adapters/conversant",
+    "adapters/eplanning",
+    "adapters/gamoshi",
+    "adapters/grid",
+    "adapters/gumgum",
+    "adapters/improvedigital",
+    "adapters/ix",
+    "adapters/lifestreet",
+    "adapters/openx",
+    "adapters/pubmatic",
+    "adapters/pulsepoint",
+    "adapters/rhythmone",
+    "adapters/rubicon",
+    "adapters/somoaudience",
+    "adapters/sonobi",
+    "adapters/sovrn",
+    "adapters/yieldmo",
+    "analytics",
+    "analytics/config",
+    "analytics/filesystem",
+    "cache",
+    "cache/dummycache",
+    "cache/filecache",
+    "cache/postgrescache",
+    "config",
+    "currencies",
+    "endpoints",
+    "endpoints/info",
+    "endpoints/openrtb2",
+    "errortypes",
+    "exchange",
+    "gdpr",
+    "macros",
+    "openrtb_ext",
+    "pbs",
+    "pbsmetrics",
+    "pbsmetrics/config",
+    "pbsmetrics/prometheus",
+    "prebid",
+    "prebid_cache_client",
+    "router",
+    "server",
+    "ssl",
+    "stored_requests",
+    "stored_requests/backends/db_fetcher",
+    "stored_requests/backends/empty_fetcher",
+    "stored_requests/backends/file_fetcher",
+    "stored_requests/backends/http_fetcher",
+    "stored_requests/caches/cachestest",
+    "stored_requests/caches/memory",
+    "stored_requests/caches/nil_cache",
+    "stored_requests/config",
+    "stored_requests/events",
+    "stored_requests/events/api",
+    "stored_requests/events/http",
+    "stored_requests/events/postgres",
+    "usersync",
+    "usersync/usersyncers",
+  ]
+  pruneopts = "UT"
+  revision = "014b416eb903e74698a2f7408c6001abfb2b6f4f"
+  version = "0.67.0"
+
+[[projects]]
   digest = "1:2331a3aa2a326722e1e808f131bcf0da9618399e763610e17da20ad25ecf2bfe"
   name = "github.com/prometheus/client_golang"
   packages = [
@@ -365,9 +443,20 @@
   version = "v1.1.0"
 
 [[projects]]
-  digest = "1:18752d0b95816a1b777505a97f71c7467a8445b8ffb55631a7bf779f6ba4fa83"
+  digest = "1:ac83cf90d08b63ad5f7e020ef480d319ae890c208f8524622a2f3136e2686b02"
+  name = "github.com/stretchr/objx"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "477a77ecc69700c7cdeb1fa9e129548e1c1c393c"
+  version = "v0.1.1"
+
+[[projects]]
+  digest = "1:15a4a7e5afac3cea801fa24831fce3bf3b5bd3620cbf8355a07b7dbf06877883"
   name = "github.com/stretchr/testify"
-  packages = ["assert"]
+  packages = [
+    "assert",
+    "mock",
+  ]
   pruneopts = "UT"
   revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
   version = "v1.2.2"
@@ -503,6 +592,74 @@
     "github.com/prebid/go-gdpr/consentconstants",
     "github.com/prebid/go-gdpr/vendorconsent",
     "github.com/prebid/go-gdpr/vendorlist",
+    "github.com/prebid/prebid-server/adapters",
+    "github.com/prebid/prebid-server/adapters/33across",
+    "github.com/prebid/prebid-server/adapters/adapterstest",
+    "github.com/prebid/prebid-server/adapters/adform",
+    "github.com/prebid/prebid-server/adapters/adkernelAdn",
+    "github.com/prebid/prebid-server/adapters/adtelligent",
+    "github.com/prebid/prebid-server/adapters/appnexus",
+    "github.com/prebid/prebid-server/adapters/audienceNetwork",
+    "github.com/prebid/prebid-server/adapters/beachfront",
+    "github.com/prebid/prebid-server/adapters/brightroll",
+    "github.com/prebid/prebid-server/adapters/consumable",
+    "github.com/prebid/prebid-server/adapters/conversant",
+    "github.com/prebid/prebid-server/adapters/eplanning",
+    "github.com/prebid/prebid-server/adapters/gamoshi",
+    "github.com/prebid/prebid-server/adapters/grid",
+    "github.com/prebid/prebid-server/adapters/gumgum",
+    "github.com/prebid/prebid-server/adapters/ix",
+    "github.com/prebid/prebid-server/adapters/lifestreet",
+    "github.com/prebid/prebid-server/adapters/openx",
+    "github.com/prebid/prebid-server/adapters/pubmatic",
+    "github.com/prebid/prebid-server/adapters/pulsepoint",
+    "github.com/prebid/prebid-server/adapters/rhythmone",
+    "github.com/prebid/prebid-server/adapters/rubicon",
+    "github.com/prebid/prebid-server/adapters/somoaudience",
+    "github.com/prebid/prebid-server/adapters/sonobi",
+    "github.com/prebid/prebid-server/adapters/sovrn",
+    "github.com/prebid/prebid-server/adapters/yieldmo",
+    "github.com/prebid/prebid-server/analytics",
+    "github.com/prebid/prebid-server/analytics/config",
+    "github.com/prebid/prebid-server/analytics/filesystem",
+    "github.com/prebid/prebid-server/cache",
+    "github.com/prebid/prebid-server/cache/dummycache",
+    "github.com/prebid/prebid-server/cache/filecache",
+    "github.com/prebid/prebid-server/cache/postgrescache",
+    "github.com/prebid/prebid-server/config",
+    "github.com/prebid/prebid-server/currencies",
+    "github.com/prebid/prebid-server/endpoints",
+    "github.com/prebid/prebid-server/endpoints/info",
+    "github.com/prebid/prebid-server/endpoints/openrtb2",
+    "github.com/prebid/prebid-server/errortypes",
+    "github.com/prebid/prebid-server/exchange",
+    "github.com/prebid/prebid-server/gdpr",
+    "github.com/prebid/prebid-server/macros",
+    "github.com/prebid/prebid-server/openrtb_ext",
+    "github.com/prebid/prebid-server/pbs",
+    "github.com/prebid/prebid-server/pbsmetrics",
+    "github.com/prebid/prebid-server/pbsmetrics/config",
+    "github.com/prebid/prebid-server/pbsmetrics/prometheus",
+    "github.com/prebid/prebid-server/prebid",
+    "github.com/prebid/prebid-server/prebid_cache_client",
+    "github.com/prebid/prebid-server/router",
+    "github.com/prebid/prebid-server/server",
+    "github.com/prebid/prebid-server/ssl",
+    "github.com/prebid/prebid-server/stored_requests",
+    "github.com/prebid/prebid-server/stored_requests/backends/db_fetcher",
+    "github.com/prebid/prebid-server/stored_requests/backends/empty_fetcher",
+    "github.com/prebid/prebid-server/stored_requests/backends/file_fetcher",
+    "github.com/prebid/prebid-server/stored_requests/backends/http_fetcher",
+    "github.com/prebid/prebid-server/stored_requests/caches/cachestest",
+    "github.com/prebid/prebid-server/stored_requests/caches/memory",
+    "github.com/prebid/prebid-server/stored_requests/caches/nil_cache",
+    "github.com/prebid/prebid-server/stored_requests/config",
+    "github.com/prebid/prebid-server/stored_requests/events",
+    "github.com/prebid/prebid-server/stored_requests/events/api",
+    "github.com/prebid/prebid-server/stored_requests/events/http",
+    "github.com/prebid/prebid-server/stored_requests/events/postgres",
+    "github.com/prebid/prebid-server/usersync",
+    "github.com/prebid/prebid-server/usersync/usersyncers",
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
     "github.com/prometheus/client_model/go",
