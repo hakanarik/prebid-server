@@ -608,6 +608,7 @@
     "github.com/prebid/prebid-server/adapters/gamoshi",
     "github.com/prebid/prebid-server/adapters/grid",
     "github.com/prebid/prebid-server/adapters/gumgum",
+    "github.com/prebid/prebid-server/adapters/improvedigital",
     "github.com/prebid/prebid-server/adapters/ix",
     "github.com/prebid/prebid-server/adapters/lifestreet",
     "github.com/prebid/prebid-server/adapters/openx",
